@@ -9847,3 +9847,21 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+/*!
+
+This is my own CSS edits after this point
+*/
+
+
+.iframeVideo {
+	height: 0px;
+	padding-top: 25px;
+	padding-bottom: 56.2%;
+	position: relative;
+}
+.iframeVideo iframe {
+	width: 150%;
+	height: 150%;
+	position: absolute;
+}
