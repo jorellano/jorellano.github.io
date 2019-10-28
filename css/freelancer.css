@@ -9850,10 +9850,12 @@ form .row:first-child .floating-label-form-group {
 
 /*!
 
-This is my own CSS edits after this point
+These are my own CSS edits after this point
 */
 
-
+/*!
+Youtube video player layout & size for mobile & web
+*/
 div {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -9866,4 +9868,10 @@ iframe {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+/*!
+*
+p.big {
+  line-height: 3;
 }
