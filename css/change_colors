@@ -1,0 +1,14 @@
+## *nav link hover color ()*
+a.nav-link:hover{color:#636363 change hex color]
+
+## *nav link current section of website you're in
+a.nav-link.active{color:#ff0000}
+
+## "x" bar on top right of portfolio modal Color
+3rem;color:252525;opacity
+
+## color of social links at footer
+{top:-.5em}a{color:#fffff
+
+# hover color for menu ribbon
+focus,button.bg-primary:hover{background-color:
