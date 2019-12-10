@@ -393,45 +393,89 @@
                 <!-- Portfolio Modal - Text -->
 
                 <h1 style="font-size:200%;">What is 'Fast Multipole Method' (FMM)?</h1>
+                
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
 
                 
 
 
                 <p class="mb-5"> As my interest in Machine Learning piqued, the problem of computational
                   complexity became increasingly apparent given the amount of data needed to run ML/DL models effectively.
-                  The problem is best defined as the <a href="https://en.wikipedia.org/wiki/N-body_problem" style="color:rgb(45, 94, 201)">n-body problem</a>
-                  <i>: <b>In physics, the n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally.</b></i></In>
-                   in 1987 Greengard & Rokhlin published <a href="https://web.njit.edu/~jiang/math614/greengard-rokhlin.pdf" style="color:rgb(45, 94, 201)">
-                   A Fast Algorithm for Particle Simulations*.</a> discovering a new method of reducing computational complexity <img src="http://latex.codecogs.com/svg.latex?O(n)^2" border="0"/></p>
-  
+                  The problem is best defined as the <a href="https://en.wikipedia.org/wiki/N-body_problem" 
+                  style="color:rgb(45, 94, 201)">n-body problem</a><i>: <b>In physics, the n-body problem is the problem of 
+                  predicting the individual motions of a group of celestial objects interacting with each other gravitationally.</b></i>
+                  In 1987 Greengard & Rokhlin published <a href="https://web.njit.edu/~jiang/math614/greengard-rokhlin.pdf" 
+                  style="color:rgb(45, 94, 201)">A Fast Algorithm for Particle Simulations*</a>, discovering a new method of 
+                  reducing computational complexity
+                  
+                  <br />
+                  <br />
 
+                  <a href="https://www.codecogs.com/eqnedit.php?latex=O(n)^2&space;\rightarrow&space;O(n)" 
+                  target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(n)^2&space;\rightarrow&space;O(n)" title="O(n)^2 \rightarrow 
+                  O(n)" /></a> 
+
+                  <br />
+                  <br /> 
+                  
+                  By the year 2000 their algorithm was named  <a href="https://archive.siam.org/news/news.php?id=637" 
+                  style="color:rgb(45, 94, 201)">top 10 algorithms</a> of the <var>20<sup>th</sup></var>Century.
+                    
 
                 </p>
 
-                <h1 style="font-size:150%;"> What is the N-body problem?:</h1>
+                
+                  <h1 style="font-size:180%;"> What is the N-body <br />problem?</h1>
+
+                  <br />
 
 
-                Before getting into the nitty gritty, it would be a good idea to define what the problem and why it is important... 
+                Before getting into the nitty gritty, it would be a good idea to define the problem and why it is important... 
 
-                Problem: Predict the individual motion of celestial objects & their interactions with each other.
+                <br />
+                <br />
 
-                Sounds simple right? Well.. Like anything, it is much more difficult than imagined, <img src="http://latex.codecogs.com/svg.latex?O(n)^2" border="0"/></p> difficult. 
-                Taking into consideation that these celestial bodies also follow Newton's laws of physics
-                <o></o>
-                <ol>
-                  <li>Add definition of FMM, problem, & why it is important.</li>
-                  <li>add c code for Barnes-hut algorithm.</li>
-                  <li>Find a way to add link for my presentation (high level presentation)</li>
-                  <li>How this is important for Deep Learning & Machine Learning</li>
-                </ol>
-                  1. Add definition of FMM, problem, & why it is important.
-                  2. add c code for Barnes-hut algorithm.
-                  3. Find a way to add link for my presentation (high level presentation)
-                  4. How this is important for Deep Learning & Machine Learning
-                  <img src="http://latex.codecogs.com/svg.latex?O(n)^2" border="0"/></p>
+                <b>Problem:</b> Predict the individual motion of celestial objects & their interactions with each other.
+                <br />
+                <br />
+                A very simple way to think about this is to imagine someone juggling 2-3 objects. The task is simple for 2, but for 3
+                one needs to master hand-eye coordination & understand the mass & velocity of the object being juggled as well as ther 
+                force needed to move it. 
 
-                  <html>
+                <br />
+                <br />
 
+
+
+                <iframe src="https://giphy.com/embed/5ns3JbjHIS6ZZI3A8H" width="480" height="269" frameBorder="0" class="giphy-embed" 
+                allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5ns3JbjHIS6ZZI3A8H"></a>
+                   <figcaption> The objects are easy to track given there are only 3 </figcaption></p>
+
+                   <br />
+                   <br />
+              
+                   <h1 style="font-size:200%;">But Space is Big...</h1>
+                    
+                   If we measure the amount of stars, we are taking into consideration about <var>10<sup>21</sup></var> stars. <b>1 Billion Trillion</b>, 
+                   if your math is fuzzy. This is only the amount of stars, lest you forget there are planets and asteroids too. 
+                   The number is unfathomable, trying to predict the movement of each body & its interaction with other masses is nearly impossible.
+
+                   <br />
+                   <br />
+
+                   <iframe src="https://giphy.com/embed/3o7btZ3T6y3JTmjg4w" width="480" height="270" frameBorder="0" class="giphy-embed" 
+                   allowFullScreen></iframe><p><a href="https://giphy.com/gifs/epitaphrecords-music-video-3o7btZ3T6y3JTmjg4w"></a> 
+                    <figcaption> Lost in space are you? Yeah, same...</figcaption></p>
+
+
+                   <h1 style="font-size:200%;">Solution? Maybe...</h1>
+                
                   <title>Title of the document</title>
                     </head>
                     <body>
