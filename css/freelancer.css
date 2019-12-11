@@ -9874,7 +9874,11 @@ iframe {
     transform-origin: 0 0;
 }
 
-
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
 /*!
 *
 p.big {
