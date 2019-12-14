@@ -404,18 +404,40 @@
 
                 
 
-
-                <p class="mb-5"> As my interest in Machine Learning piqued, the problem of computational
+                  <h1 style="font-size:150%;">
+                     <blockquote> 
+                      "Still more glorious dawn awaits. <br />
+                      Not a sunrise, but a galaxy rise. <br />
+                      A morning filled with 400 billion suns<br />
+                      The rising of the milky way”
+                     </blockquote>
+                    </h1>
+                    <h1 style="font-size:110%;">- Carl Sagan</h1>
+                  <br />
+                  <br />
+                  <h1 style="font-size:100%;">
+                    <b>In the future traversing galaxies and colonizing new planets will be all but an afterthought. The future of space-travel, will not be possible if we cannot predict
+                  the trajectories of all objects in space, & their interactions with one another.</b>
+                    </h1>
+                  
+                  <br />
+                  <br />
+                  <i>The following is a high-level presentation I did after researching the Fast Multipole Method algorithm.</i>
+                  <br />
+                  <br />  
+                  <br />
+                  
+                   As my interest in Machine Learning piqued, the problem of computational
                   complexity became increasingly apparent given the amount of data needed to run ML/DL models effectively.
                   The problem is best defined as the <a href="https://en.wikipedia.org/wiki/N-body_problem" 
                   style="color:rgb(45, 94, 201)">n-body problem</a><i>: <b>In physics, the n-body problem is the problem of 
                   predicting the individual motions of a group of celestial objects interacting with each other gravitationally.</b></i>
                   The n-body problem was first devised by <a href="https://en.wikipedia.org/wiki/Newton%27s_theorem_of_revolving_orbits#cite_ref-10" 
-                  style="color:rgb(45, 94, 201)">Newton</a> when he was calculating the trajectories of Jupiter & it's moons. 
+                  style="color:rgb(45, 94, 201)">Newton</a> when calculating the trajectories of Jupiter & it's moons. 
                   
                   By 1987 Greengard & Rokhlin published: <a href="https://web.njit.edu/~jiang/math614/greengard-rokhlin.pdf" 
-                  style="color:rgb(45, 94, 201)">A Fast Algorithm for Particle Simulations*</a>, discovering a new method of 
-                  reducing computational complexity 
+                  style="color:rgb(45, 94, 201)">A Fast Algorithm for Particle Simulations*</a>, proposing a new method of 
+                  reducing computational complexity from
                   
                   <br />
                   <br />
@@ -429,14 +451,19 @@
                   
                   By the year 2000 their algorithm was named  <a href="https://archive.siam.org/news/news.php?id=637" 
                   style="color:rgb(45, 94, 201)">top 10 algorithms</a> of the <var>20<sup>th</sup></var>Century.
-                    
-
+                  <br />
+                  <br /> 
+                  <br />
+                  <br /> 
+                  
                 </p>
 
                 
                   <h1 style="font-size:180%;"> What is the N-body <br />problem?</h1>
 
                   <br />
+                  <br />
+                
 
 
                  <i>Before getting into the nitty gritty, it would be a good idea to define the problem and why it is important... </i>
@@ -501,14 +528,14 @@
                       <br />
                       <br />
 
-                      Stated simply, what the Barnes-Hut algorithm does is calculate close-range particles individually, 
-                      while distant particles are treated as a single large particle. This in turn dramatically reduces due 
+                      Stated simply, what the Barnes-Hut algorithm does is create a quadtree (or octree) that computes close-range particles individually, 
+                      while distant particles are treated as a single large particle (far-field expansion). This in turn dramatically reduces due 
                       to calculations only occuring where there are particles in space. 
 
 
                       <a href="MY WEBSITE LINK" target="_blank">
                           <img src="img/gifs/bhtsne.gif" style='width:100%;' border="0" alt="Null">
-                        </a><figcaption> Quadtree bounding only occurs where e/ particle is in space, otherwise leaves the rest uncalculated.</figcaption></p>
+                        </a><figcaption> Quadtree bounding only occurs where  is in space, otherwise leaves the rest uncalculated.</figcaption></p>
   
                         
                         
@@ -519,6 +546,8 @@
                       <p>Check out my short presentation <a href="/Users/jorellano/jorellano.github.io/pdf/FMM.pdf"><font color="R"> FMM</a>.</p>
                     </body>
 
+                    All my life I've had doubts about who I am, where I belonged. Now I'm like the arrow that springs from the bow. No hesitation, no doubts.
+                    The path is clear.
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
