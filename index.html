@@ -495,7 +495,10 @@
                    <br />
               
                    <h1 style="font-size:200%;">But Space is Big...</h1>
-                    
+
+                     <br />
+                   <br />
+
                    If we count the amount of stars, we are taking into consideration about <var>10<sup>21</sup></var> stars, <b>1 Billion Trillion</b>, 
                    if your math is fuzzy. This is only the amount of stars, lest you forget there are planets, asteroids or the little understood Black holes. 
                    The number is unfathomable, calculating mass & predicting the movement of each body & its interaction with other bodies is computationally impractical.
@@ -529,7 +532,7 @@
                       <br />
 
                       Stated simply, what the Barnes-Hut algorithm does is create a quadtree (or octree) that computes close-range particles individually, 
-                      while distant particles are treated as a single large particle (far-field expansion). This in turn dramatically reduces due 
+                      while distant particles are approximated by the largest macroparticle's center mass. This in turn dramatically reduces due 
                       to calculations only occuring where there are particles in space. 
 
 
@@ -538,7 +541,52 @@
                         </a><figcaption> Quadtree bounding only occurs where  is in space, otherwise leaves the rest uncalculated.</figcaption></p>
   
                         
-                        
+                        <br />
+                        <br />
+
+                        <h1 style="font-size:200%;">To the FMM</h1>
+                        <br />
+                        <br />
+                      <a href="MY WEBSITE LINK" target="_blank">
+                            <img src="img/gifs/multipole.gif" style='width:100%;' border="0" alt="Null">
+                          </a><figcaption> Many similarities to BH, but...</figcaption></p>
+
+
+                            <br />
+                            <br />
+
+                            In essence, FMM & BH do the same computations, however, there are some differences. The first difference between
+                            them is that FMM computes the potential at every particle, not just the force.  The inner expansion also uses the nearest-neighbor to calculate potential.
+                            The key difference is that FMM is more expensive because it computes both for every leafnode and BH does not. Given these added constraints, FMM is still faster than BH.
+
+                            <br />
+                            <br />
+
+                            <h1 style="font-size:200%;">Barnes-Hut  <br />vs.  <br />Fast Multipole Method</h1>
+
+                         <a href="MY WEBSITE LINK" target="_blank">
+                            <img src="img/tree_FMM.png" style='width:100%;' border="0" alt="Null">
+                          </a><figcaption> FMM wins at 10 million iterations</figcaption></p>
+
+                          <a href="" target="_blank">
+                            <img src="img/fmm_v_bh.png" style='width:100%;' border="0" alt="Null">
+                          </a><figcaption> Another Win </figcaption></p>
+
+
+
+
+                            <br />
+                            <br />
+
+                            <h1 style="font-size:200%;">What does this mean anyway?</h1>
+
+
+                            <br />
+                            <br />
+
+                            Given that the future of data will skew tow
+
+
                     </p>
 
 
