@@ -9888,10 +9888,13 @@ iframe {
   display: table;
 }
 
-iframe,
-textrarea {
-    height: max-content;
-}
+$embed-responsive-aspect-ratios: (
+  (21 9),
+  (16 9),
+  (4 3),
+  (1 1)
+) !default;
+
 
 
 
