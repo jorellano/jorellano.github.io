@@ -9887,6 +9887,20 @@ iframe {
   clear: both;
   display: table;
 }
+
+/* Create responsive pdf viewer*/
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+
+
+
+
 /*!
 *
 p.big {
