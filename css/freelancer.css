@@ -9888,15 +9888,10 @@ iframe {
   display: table;
 }
 
-/* Create responsive pdf viewer*/
-.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
+iframe,
+textrarea {
+    height: max-content;
 }
-
-.embed-responsive-4by3 {
-  padding-bottom: 75%;
-}
-
 
 
 
